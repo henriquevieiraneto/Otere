@@ -1,0 +1,49 @@
+@import url(root.css);
+
+.how-works{
+
+    h2{
+
+        font-family: 47px;
+        font-weight: 800;
+
+        span{
+            color: var(--primary-color);
+        }
+    }
+
+    p{
+        font-size: 23px;
+        font-weight: 500;
+        color: var(--text-color);
+        margin-bottom: 63px;
+    }
+
+    .col-md-3{
+
+        img{
+            width: 61px;
+            margin-bottom: 5px;
+        }
+
+        h3{
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .col-md-4{
+
+        img{
+            width: 400px;
+            height: 560px;
+            margin: 0 40px 160px;
+        }
+
+    }
+    
+}

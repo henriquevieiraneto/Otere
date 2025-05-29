@@ -1,0 +1,40 @@
+@import url(root.css);
+
+h2 {
+    font-size: 47px !important;
+    font-weight: 800 !important;
+    margin-bottom: 52px !important;
+
+    span{
+        color: var(--primary-color);
+    }
+}
+
+.container.bg-white{
+
+    margin-bottom: 56px;
+    text-align: start;
+    border-radius: 10px;
+    padding: 99px 111px 25px 38px;
+
+    h3{
+        font-size: 34px;
+        font-weight: 600 !important;
+
+        span{
+            color: var(--primary-color);
+            font-size: 88px;
+            font-weight: 500;
+        }
+    }
+    
+    p{
+        color: #9E9DA2;
+        font-weight: 500;
+        font-size: 22px;
+    }
+}
+
+.container.bg-white.reversed{
+    padding: 99px 38px 25px 111px;
+}

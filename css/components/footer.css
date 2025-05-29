@@ -1,0 +1,51 @@
+@import url(footer.css);
+
+footer{
+    .container.d-flex.align-items-center{
+        padding: 71px 0 38px;
+    }
+
+    h5{
+        font-weight: 500;
+        font-size: 22px;
+        color: #272042;
+    }
+
+    p{
+        color: #8B8BA5;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+
+    .btn {
+        background-color: black;
+        border: none;
+        color: #FFF;
+        font-weight: 800;
+        font-size: 17px;
+        text-align: center;
+        width: 179px;
+        height: 46px;
+
+        &:hover {
+            background-color: #0d6efd;
+            color: #FFF;
+        }
+
+        img{
+            width: 28px;
+            margin-right: 7px;
+        }
+    }
+
+
+    .container.text-center{
+        padding: 38px 0 243px;
+        p{
+            color: var(--primary-color);
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}
